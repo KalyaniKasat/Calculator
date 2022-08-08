@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="calcss.css" rel="stylesheet" tyep="text/css" />
+    <script type="text/javascript" src="caljs.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+      <h1 id="heading">SCIENTIFIC CALCULATOR</h1>
+    </nav>  
+    <form name="calc">
+        <table id="calc" border=3>
+         <tr>
+            <td colspan=5><input id="tab" name="display" onkeypress="return event.charCode >= 48
+            && event.charCode <= 57" type="text">
+            </td>
+            </tr>
+
+            <tr>
+                <td><input id="btn" type="button" value="1" OnClick="calc.display.value+='1'"></td>
+                <td><input id="btn" type="button" value="2" OnClick="calc.display.value+='2'"></td>
+                <td><input id="btn" type="button" value="3" OnClick="calc.display.value+='3'"></td>
+                <td><input id="AC"  type="button" value="AC" OnClick="calc.display.value=''"></td>
+                <td><input id="btn" type="button" value="=" OnClick="equalsTo(this.form)"></td>
+            </tr>
+
+            <tr>
+                <td><input id="btn" type="button" value="4" OnClick="calc.display.value+='4'"></td>
+                <td><input id="btn" type="button" value="5" OnClick="calc.display.value+='5'"></td>
+                <td><input id="btn" type="button" value="6" OnClick="calc.display.value+='6'"></td>
+                <td><input id="btn" type="button" value="+" OnClick="calc.display.value+='+'"></td>
+                <td><input id="btn" type="button" value="-" OnClick="calc.display.value+='-'"></td>
+            </tr>
+
+            <tr>
+                <td><input id="btn" type="button" value="7" OnClick="calc.display.value+='7'"></td>
+                <td><input id="btn" type="button" value="8" OnClick="calc.display.value+='8'"></td>
+                <td><input id="btn" type="button" value="9" OnClick="calc.display.value+='9'"></td>
+                <td><input id="btn" type="button" value="*" OnClick="calc.display.value+='*'"></td>
+                <td><input id="btn" type="button" value="/" OnClick="calc.display.value+='/'"></td>
+            </tr>
+
+            <tr>
+                <td><input id="btn" type="button" value="." OnClick="calc.display.value+='.'"></td>
+                <td><input id="btn" type="button" value="," OnClick="calc.display.value+=','"></td>
+                <td><input id="btn" type="button" value="0" OnClick="calc.display.value+='0'"></td>
+                <td><input id="btn" type="button" value="(" OnClick="calc.display.value+='('"></td>
+                <td><input id="btn" type="button" value=")" OnClick="calc.display.value+=')'"></td>
+            </tr>
+
+            <tr>
+                <td><input id="btn" type="button" value="sin" OnClick="calc.display.value='Math.sin('"></td>
+                <td><input id="btn" type="button" value="cos" OnClick="calc.display.value='Math.cos('"></td>
+                <td><input id="btn" type="button" value="tan" OnClick="calc.display.value='Math.tan('"></td>
+                <td><input id="btn" type="button" value="log" OnClick="calc.display.value='Math.log10('"></td>
+                <td><input id="btn" type="button" value="%" OnClick="calc.display.value+='%'"></td>
+            </tr>
+
+            <tr>
+                <td><input id="btn" type="button" value="ln" OnClick="calc.display.value='Math.log('"></td>
+                <td><input id="btn" type="button" value="^" OnClick="calc.display.value+='Math.pow('"></td>
+                <td><input id="btn" type="button" value="sqrt" OnClick="calc.display.value+='Math.sqrt('"></td>
+                <td><input id="btn" type="button" value="n!" OnClick="calc.display.value+='!'"></td>
+                <td><input id="btn" type="button" value="DEL" OnClick="del(this.form)"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html> 
+
+
+        

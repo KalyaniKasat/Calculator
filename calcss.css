@@ -1,0 +1,86 @@
+#heading{
+    font-size: 50px;
+    text-align:center;
+  }
+  
+  nav{
+    margin: 0;
+    width: 100%;
+    background-color: cyan;
+  }
+  
+  body{
+    background-color: greenyellow;
+  }
+  
+  #calc{
+    background-color: black;
+  }
+  
+  table{
+    margin: auto;
+    padding: 3px;
+    border-radius: 10px;
+  }
+  
+  colspan{
+   width: 100px;
+   height: 50px;
+  }
+  
+  #tab{
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    color: black;
+    background-color: rgb(113, 165, 165);
+    border-block-end-color: black;
+    box-shadow: 5px 10px 30px rgba(20,139,119,0.2);
+  }
+  
+  #btn{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: cyan;
+    border-block-end-color: black;
+    box-shadow: 5px 10px 30px rgba(20,139,119,0.2);
+  }
+  
+  #AC {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    background-color: cyan;
+    border-block-end-color: black;
+    box-shadow: 5px 10px 30px rgba(20,139,119,0.2);
+  }
+  
+  input{
+    font-size: 23px ;
+    font-weight: 800;
+  }
+  
+  element.style {
+    width: 70px;
+    height: 50px;
+  }
+  
+  #btn:hover {
+    background-color: white;
+    transition: all ease 0.2s;
+    cursor: pointer;
+  }
+  
+  #AC:hover {
+    background-color: white;
+    transition: all ease 0.2s;
+    cursor: pointer;
+  }
